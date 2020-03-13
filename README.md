@@ -22,8 +22,8 @@ Marketplace](https://marketplace.visualstudio.com/items?itemName=Lee182.vscode-c
 
 1. Select the css code.
 2. Hit <kbd>⌘ Command</kbd> + <kbd>⇧ Shift</kbd> + <kbd>p</kbd> / <kbd>Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>p</kbd>
-3. Run `css2stylus: format selection` or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>c</kbd> / <kbd>⌘ Command</kbd> + <kbd>Alt</kbd> + <kbd>c</kbd> .
-
+3. Run `Convert CSS to Stylus` or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>c</kbd> / <kbd>⌘ Command</kbd> + <kbd>Alt</kbd> + <kbd>c</kbd> .
+4. Run `Convert Stylus to Css` or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>c</kbd> / <kbd>⌘ Command</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>c</kbd> .
 ## Keyboard Shortcut
 
 Use the following to embed a shortcut in keybindings.json. Replace with your preferred key bindings.

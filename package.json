@@ -1,8 +1,8 @@
 {
 	"name": "vscode-css2stylus",
 	"displayName": "css2stylus",
-	"description": "css to stylus vscode extension",
-	"version": "1.0.0",
+	"description": "format selection and quickly convert css to stylus (and stylus to css)",
+	"version": "1.1.0",
 	"icon": "icon.png",
 	"bugs": {
 		"url": "https://github.com/Lee182/vscode-css2stylus/issues",
@@ -19,7 +19,7 @@
 	},
 	"tags": ["vscode", "css", "stylus", "css2stylus"],
 	"categories": ["Programming Languages", "Formatters", "Other"],
-	"activationEvents": ["onCommand:extension.css2stylus"],
+	"activationEvents": ["onCommand:extension.css2stylus", "onCommand:extension.stylus2css"],
 	"main": "./extension",
 	"contributes": {
 		"keybindings": [
@@ -28,12 +28,22 @@
 				"key": "ctrl+alt+c",
 				"mac": "cmd+alt+c",
 				"linux": "ctrl+alt+c"
+			},
+			{
+				"command": "extension.stylus2css",
+				"key": "ctrl+alt+shift+c",
+				"mac": "cmd+alt+shift+c",
+				"linux": "ctrl+alt+shift+c"
 			}
 		],
 		"commands": [
 			{
 				"command": "extension.css2stylus",
-				"title": "css2stylus: format selection"
+				"title": "Convert CSS to Stylus"
+			},
+			{
+				"command": "extension.stylus2css",
+				"title": "Convert Stylus to CSS"
 			}
 		],
 		"configuration": {
@@ -86,6 +96,7 @@
 		"vscode": "^1.1.34"
 	},
 	"dependencies": {
-		"css-to-stylus-converter": "^1.1.9"
+		"css-to-stylus-converter": "^1.1.9",
+		"stylus": "^0.54.7"
 	}
 }

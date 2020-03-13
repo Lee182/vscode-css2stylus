@@ -57,8 +57,10 @@ Settings object with defaults.
 ```
 
 ## Built With
+* [stylus](https://github.com/stylus)
 * [css-to-stylus-converter](https://github.com/KonstantinKai/css-to-stylus-converter#readme) - css to stylus
 * [vscode-html2pug](https://github.com/dbalas/vscode-html2pug) - as a good template
+
 
 ## Contributing
 Feel free to submit pull request or suggestions [here](https://github.com/Lee182/vscode-css2stylus/issues/new).

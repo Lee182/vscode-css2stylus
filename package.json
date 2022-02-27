@@ -98,6 +98,6 @@
     "awaity": "^1.0.0",
     "css-to-stylus-converter": "^1.1.9",
     "stylus": "^0.54.8",
-    "url-parse": "^1.5.1"
+    "url-parse": "^1.5.8"
   }
 }
